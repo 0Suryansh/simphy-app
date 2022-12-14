@@ -1,0 +1,71 @@
+.sidebar{
+    height: 93vh;
+    width: 20vw;
+    position: fixed;
+    left: 0;
+    top: 3rem;
+    bottom: 0;
+    background-color: #2F343C;
+    border-right: 1px solid gray;
+}
+.sidebar-file-explorer{
+    height: 30vh;
+    width: 20vw;
+}
+.sidebar-properties{
+    border-top: 2px solid gray;
+    background-color: #46494B;
+}
+.sidebar-properties-body{
+    max-height: 64vh;
+    min-height: 40vh;
+    height: 64vh;
+    overflow-y: auto;
+}
+.sidebar-properties-accordion{
+    cursor: default;
+}
+.sidebar-properties-accordion-head{
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+    background-color: #C0C0C0;
+    cursor: default;
+    font-weight: bold;
+    height: 2rem;
+    border-bottom: 1px solid gray;
+}
+.sidebar-properties-heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #46494B;
+    height: 2rem;
+}
+.sidebar-properties-heading span{
+    border-right: 1px solid grey;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #CCCCCC;
+}
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
