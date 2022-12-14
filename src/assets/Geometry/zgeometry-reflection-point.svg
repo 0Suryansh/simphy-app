@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="220mm"
+   height="220mm"
+   viewBox="0 0 220 220"
+   version="1.1"
+   id="svg10464"
+   sodipodi:docname="zgeometry-reflection-point.svg"
+   inkscape:version="1.1.1 (c3084ef, 2021-09-22)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview10466"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="true"
+     width="220mm"
+     inkscape:zoom="0.70489844"
+     inkscape:cx="402.1856"
+     inkscape:cy="461.76865"
+     inkscape:window-width="1440"
+     inkscape:window-height="759"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1"
+     showguides="false">
+    <inkscape:grid
+       type="xygrid"
+       id="grid7801" />
+  </sodipodi:namedview>
+  <defs
+     id="defs10461">
+    <marker
+       style="overflow:visible;"
+       id="marker28163"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Send"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.3) rotate(180) translate(-2.3,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="stroke:context-stroke;fill-rule:evenodd;fill:context-stroke;stroke-width:0.62500000;stroke-linejoin:round;"
+         id="path28161" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Sstart"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Sstart"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.3) translate(-2.3,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="stroke:context-stroke;fill-rule:evenodd;fill:context-stroke;stroke-width:0.62500000;stroke-linejoin:round"
+         id="path9918" />
+    </marker>
+    <marker
+       style="overflow:visible;"
+       id="marker27884"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Send"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.3) rotate(180) translate(-2.3,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="stroke:context-stroke;fill-rule:evenodd;fill:context-stroke;stroke-width:0.62500000;stroke-linejoin:round;"
+         id="path27882" />
+    </marker>
+    <marker
+       style="overflow:visible;"
+       id="Arrow2Send"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow2Send"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.3) rotate(180) translate(-2.3,0)"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         style="stroke:context-stroke;fill-rule:evenodd;fill:context-stroke;stroke-width:0.62500000;stroke-linejoin:round;"
+         id="path9921" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <ellipse
+       style="fill:#40b6e0;fill-opacity:0.8;stroke-width:10.6477;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none"
+       id="path11030"
+       cx="42.365177"
+       cy="45.829426"
+       rx="21.394926"
+       ry="21.770275" />
+    <circle
+       style="fill:none;fill-opacity:0.8;stroke:#9aa7b0;stroke-width:13.607;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+       id="path1485"
+       cx="175.22952"
+       cy="176.23361"
+       r="13.946672" />
+    <path
+       style="fill:#40b6e0;fill-opacity:1;stroke:#40b6e0;stroke-width:15;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 31.750003,190.5 185.20833,31.75"
+       id="path7836" />
+    <path
+       style="color:#000000;fill:#f26522;fill-opacity:0.8;stroke-linejoin:bevel;stroke-dasharray:12, 12;-inkscape-stroke:none"
+       d="m 64.445312,61.253906 -8.240234,8.72461 8.724609,8.240234 8.238282,-8.724609 z m 15.330599,14.363802 -8.238281,8.722656 8.722656,8.240235 8.240234,-8.72461 z m 15.861719,14.361849 -8.240235,9.253773 8.195443,7.17994 8.240232,-8.724607 z m 25.91393,25.474353 -8.23828,8.72461 7.66433,7.17995 8.24023,-8.72266 z m 14.27422,13.30351 -8.24023,8.72461 8.72461,8.24024 8.24023,-8.72461 z"
+       id="path8064"
+       sodipodi:nodetypes="ccccccccccccccccccccccccc" />
+    <path
+       id="path8198"
+       style="color:#000000;fill:#f26522;fill-opacity:0.8;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;-inkscape-stroke:none"
+       d="m 152.38672,121.63867 c -2.38026,0.47488 -4.29596,2.64385 -4.36783,5.08518 -0.0715,5.93343 -0.0102,11.87341 -0.0306,17.80935 0,0.97526 0,1.95052 0,2.92578 -0.35412,0.63267 -1.002,0.55614 -1.6293,0.5293 -6.50794,0.0132 -13.01848,-0.0263 -19.52481,0.0197 -2.67537,0.0318 -5.10053,2.29599 -5.25423,4.97587 -0.30685,2.62299 1.61548,5.24096 4.19148,5.78907 1.99826,0.31453 4.04357,0.0882 6.06178,0.15678 7.26355,-0.0131 14.52968,0.0262 21.79161,-0.0197 2.67558,-0.0317 5.1001,-2.29604 5.25458,-4.97583 0.11671,-3.1312 0.0173,-6.27306 0.0503,-9.40839 -0.0156,-5.99333 0.031,-11.98878 -0.0231,-17.98081 -0.16027,-2.94981 -3.08615,-5.41143 -6.02523,-4.95497 -0.16489,0.0162 -0.32979,0.0324 -0.49468,0.0487 z" />
+  </g>
+</svg>

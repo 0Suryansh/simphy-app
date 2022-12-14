@@ -1,0 +1,16 @@
+.wrapper-top-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #2F343C;
+    height: 3rem;
+    border-top: 0.5px solid grey;
+    border-bottom: 1px solid grey;
+}
+.left-container{
+    display: flex;
+    align-items: center;
+}
+.select{
+    height: 50px;
+}

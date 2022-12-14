@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="220mm"
+   height="220mm"
+   viewBox="0 0 220 220"
+   version="1.1"
+   id="svg8594"
+   inkscape:version="1.1.1 (c3084ef, 2021-09-22)"
+   sodipodi:docname="zgeometry-parabola-2-points.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview8596"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     width="220mm"
+     inkscape:zoom="0.76095916"
+     inkscape:cx="410.66593"
+     inkscape:cy="469.80182"
+     inkscape:window-width="1440"
+     inkscape:window-height="759"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs8591">
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect9344"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect9316"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect8844"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect8652"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="color:#000000;fill:#40b6e0;stroke-linecap:round;stroke-dashoffset:45.3543;-inkscape-stroke:none;fill-opacity:1"
+       d="m 135.08702,82.098043 c -14.41086,0 -26.26759,11.729857 -26.26759,26.101557 0,14.3717 11.85673,26.10156 26.26759,26.10156 14.41085,0 26.26562,-11.72986 26.26562,-26.10156 0,-14.3717 -11.85477,-26.101557 -26.26562,-26.101557 z m 0,11.818357 c 8.07486,0 14.44726,6.35149 14.44726,14.2832 0,7.93171 -6.3724,14.28125 -14.44726,14.28125 -8.07487,0 -14.44727,-6.34954 -14.44727,-14.28125 0,-7.93171 6.3724,-14.2832 14.44727,-14.2832 z"
+       id="path1788" />
+    <path
+       style="color:#000000;fill:#9aa7b0;stroke-linecap:round;-inkscape-stroke:none;fill-opacity:1"
+       d="m 192.00541,2.0039472 c 0,0 -41.15497,7.2829263 -82.58789,23.9433588 -20.716463,8.330217 -41.601653,18.974675 -57.773439,32.744141 -16.171786,13.769466 -27.92172,31.293218 -27.851563,52.250003 0.07058,21.08281 12.526972,38.46913 29.498047,51.97656 16.971076,13.50743 38.827452,23.81556 60.505855,31.82422 43.35682,16.01732 86.36524,22.67774 86.36524,22.67774 a 7.5,7.5 0 0 0 8.5664,-6.25586 7.5,7.5 0 0 0 -6.25781,-8.56641 c 0,0 -41.88036,-6.55961 -83.47461,-21.92578 C 98.198521,172.98883 77.563539,163.06554 62.632362,151.18168 47.701185,139.29783 38.843551,126.13448 38.792518,110.89067 38.741065,95.520823 47.18327,82.189544 61.36869,70.111369 75.554111,58.033193 95.192602,47.835268 115.01322,39.865275 c 39.64124,-15.939986 79.62109,-23.09375 79.62109,-23.09375 a 7.5,7.5 0 0 0 6.06836,-8.6972653 7.5,7.5 0 0 0 -8.69726,-6.0703125 z"
+       id="path2833" />
+    <circle
+       style="fill:#40b6e0;fill-opacity:1;stroke:none;stroke-width:24.1304;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:45.3543"
+       id="circle1791"
+       cx="33.9002"
+       cy="109.0681"
+       r="25.729588" />
+  </g>
+</svg>

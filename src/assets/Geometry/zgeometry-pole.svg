@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="220mm"
+   height="220mm"
+   viewBox="0 0 220 220"
+   version="1.1"
+   id="svg8594"
+   inkscape:version="1.1.1 (c3084ef, 2021-09-22)"
+   sodipodi:docname="zgeometry-pole.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview8596"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     width="220mm"
+     inkscape:zoom="0.76095916"
+     inkscape:cx="302.90719"
+     inkscape:cy="398.83875"
+     inkscape:window-width="1440"
+     inkscape:window-height="759"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs8591">
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect9344"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect9316"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect8844"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect8652"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="color:#000000;fill:#40b6e0;stroke-width:1.00333;stroke-linecap:round;-inkscape-stroke:none;fill-opacity:0.80000001"
+       d="m 103.28516,38.831403 c -10.344805,0.580031 -20.15292,3.370604 -28.070316,9.907458 -11.176705,9.227842 -14.706912,24.495665 -15.31836,41.014006 -0.611448,16.518343 1.904348,35.027433 5.433594,52.569103 7.058491,35.08333 18.369141,66.38921 18.369141,66.38921 a 7.5,7.5500375 0 0 0 9.609375,4.52019 7.5,7.5500375 0 0 0 4.490234,-9.67348 c 0,0 -10.984094,-30.5159 -17.767578,-64.23234 -3.391742,-16.85823 -5.683801,-34.49469 -5.146484,-49.010363 0.537316,-14.515673 4.113154,-25.171544 9.841796,-29.901295 6.348819,-5.241785 16.095878,-7.233854 28.013668,-6.417531 11.9178,0.816323 25.54812,4.419397 38.25,8.953873 25.40378,9.068951 46.90821,21.608049 46.90821,21.608049 a 7.5,7.5500375 0 0 0 10.25195,-2.738854 7.5,7.5500375 0 0 0 -2.7207,-10.320351 c 0,0 -22.43529,-13.144481 -49.42578,-22.779879 -13.49525,-4.817699 -28.17654,-8.823811 -42.2461,-9.787522 -3.51739,-0.240928 -7.02439,-0.293618 -10.47265,-0.100274 z"
+       id="path12430" />
+    <path
+       style="color:#000000;fill:#9aa7b0;stroke-dasharray:30, 15;-inkscape-stroke:none;fill-opacity:1"
+       d="M 24.537109,8.5292969 9.5371094,8.5546875 9.5878906,38.554687 24.587891,38.529297 Z m 0.07617,45.0000001 -14.9999997,0.02539 0.052734,30 15.0000004,-0.02539 z m 0.07813,45 -14.9999997,0.02539 0.050781,30.000003 14.9999995,-0.0254 z m 0.07617,45.000003 -14.9999999,0.0254 0.050781,30 14.9999996,-0.0254 z m 0.07813,45 -14.9999999,0.0254 0.039063,23.40234 15.0000004,-0.0254 z"
+       id="path12427" />
+    <circle
+       style="fill:#9aa7b0;fill-opacity:1;stroke:none;stroke-width:15;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       id="circle12424"
+       cx="122.73708"
+       cy="100.13679"
+       r="23.991102" />
+  </g>
+</svg>

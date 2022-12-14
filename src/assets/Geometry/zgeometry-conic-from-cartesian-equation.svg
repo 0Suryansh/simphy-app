@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="220mm"
+   height="220mm"
+   viewBox="0 0 220 220"
+   version="1.1"
+   id="svg8594"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="zgeometry-conic-from-cartesian-equation.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview8596"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     width="220mm"
+     inkscape:zoom="0.76095916"
+     inkscape:cx="13.798375"
+     inkscape:cy="423.80724"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="text4942" />
+  <defs
+     id="defs8591">
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect9344"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect9316"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect8844"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect8652"
+       is_visible="true"
+       lpeversion="1"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       aria-label="f(x,y)=0"
+       transform="scale(0.84257628,1.1868362)"
+       id="text4942"
+       style="font-size:53.8099px;stroke-width:1.34525">
+      <path
+         d="m 81.61335,48.479414 h -2.074882 q -1.844347,-0.484652 -4.841408,-1.10778 -2.920204,-0.623124 -6.301504,-0.623124 -8.14585,0 -11.066063,2.630975 -2.843365,2.630977 -2.843365,10.177721 v 0.623128 H 75.849775 V 77.073968 H 55.408301 V 137.93259 H 27.743147 V 77.073968 H 15.908609 V 60.180334 H 27.743147 V 58.03401 q 0,-14.262658 8.376392,-21.393987 8.453242,-7.13133 25.513417,-7.13133 6.147813,0 11.142912,0.415417 4.995098,0.346181 8.837482,0.969309 z"
+         style="-inkscape-font-specification:'sans-serif, Bold';stroke-width:3.73467;fill:#9aa7b0;fill-opacity:1"
+         id="path7652" />
+      <path
+         d="m 148.98581,135.69709 h -18.66439 l -10.66539,-13.1244 -10.932,13.1244 H 90.41514 L 110.10162,113.78404 90.726202,91.831908 H 109.3906 l 10.48762,12.890042 10.53207,-12.890042 h 18.35332 l -19.41986,21.600582 z"
+         style="-inkscape-font-specification:'sans-serif, Bold';stroke-width:2.13316;fill:#40b6e0;fill-opacity:1"
+         id="path7656" />
+      <path
+         d="m 177.69345,120.34623 -15.99806,29.80334 h -9.90993 l 8.75451,-29.80334 z"
+         style="-inkscape-font-specification:'sans-serif, Bold';stroke-width:2.13316;fill:#f26522;fill-opacity:1"
+         id="path7658" />
+      <path
+         d="m 213.20026,120.18999 11.37639,-28.358082 h 16.44246 L 213.28916,151.79012 H 195.9579 l 7.91015,-16.40551 -19.41985,-43.552702 h 16.79794 z"
+         style="-inkscape-font-specification:'sans-serif, Bold';stroke-width:2.13316;fill:#40b6e0;fill-opacity:1"
+         id="path7660" />
+    </g>
+  </g>
+</svg>

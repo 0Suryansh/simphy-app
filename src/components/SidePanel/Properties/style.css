@@ -1,0 +1,32 @@
+.sidebar-properties-accordion-body-child{
+    border-bottom: 1px solid gray;
+    height: 2rem;
+    display: flex;
+
+}
+.sidebar-properties-accordion-body-child-label{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    width: 45%;
+    color: #CCCCCC;
+}
+.sidebar-properties-accordion-body-child-input{
+    border-left: 1px solid grey;
+    display: flex;
+    align-items: center;
+}
+.sidebar-properties-accordion-body-child-input .text{
+    outline: none;
+    border: none;
+    background-color: #46494B;
+    height: 100%;
+    width: 100%;
+    padding-left: 5px;
+    color: white;
+}
+.sidebar-properties-accordion-body-child-input .color{ 
+    margin-left: 5px;
+    appearance: none;
+    width: 1.75rem;
+}
