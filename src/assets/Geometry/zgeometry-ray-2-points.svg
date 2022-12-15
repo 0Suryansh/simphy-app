@@ -7,32 +7,32 @@
    viewBox="0 0 220 220"
    version="1.1"
    id="svg5"
-   sodipodi:docname="zgeometry-ray-2-points.svg"
-   inkscape:version="1.1.1 (c3084ef, 2021-09-22)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   sodipodiDocname="zgeometry-ray-2-points.svg"
+   inkscapeVersion="1.1.1 (c3084ef, 2021-09-22)"
+   xmlnsInkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlnsSodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <sodipodi:namedview
+   xmlnsSvg="http://www.w3.org/2000/svg">
+  <sodipodiNamedview
      id="namedview7"
      pagecolor="#ffffff"
      bordercolor="#666666"
      borderopacity="1.0"
-     inkscape:pageshadow="2"
-     inkscape:pageopacity="0.0"
-     inkscape:pagecheckerboard="0"
-     inkscape:document-units="mm"
+     inkscapePageshadow="2"
+     inkscapePageopacity="0.0"
+     inkscapePagecheckerboard="0"
+     inkscapeDocument-units="mm"
      showgrid="false"
      width="220mm"
-     inkscape:zoom="0.67354558"
-     inkscape:cx="437.23841"
-     inkscape:cy="455.05458"
-     inkscape:window-width="1440"
-     inkscape:window-height="759"
-     inkscape:window-x="0"
-     inkscape:window-y="25"
-     inkscape:window-maximized="0"
-     inkscape:current-layer="layer1" />
+     inkscapeZoom="0.67354558"
+     inkscapeCx="437.23841"
+     inkscapeCy="455.05458"
+     inkscapeWindow-width="1440"
+     inkscapeWindow-height="759"
+     inkscapeWindow-x="0"
+     inkscapeWindow-y="25"
+     inkscapeWindow-maximized="0"
+     inkscapeCurrent-layer="layer1" />
   <defs
      id="defs2">
     <marker
@@ -41,8 +41,8 @@
        refX="0.0"
        refY="0.0"
        orient="auto"
-       inkscape:stockid="Arrow1Mstart"
-       inkscape:isstock="true">
+       inkscapeStockid="Arrow1Mstart"
+       inkscapeIsstock="true">
       <path
          transform="scale(0.4) translate(10,0)"
          style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt"
@@ -55,8 +55,8 @@
        refX="0.0"
        refY="0.0"
        orient="auto"
-       inkscape:stockid="Arrow1Lstart"
-       inkscape:isstock="true">
+       inkscapeStockid="Arrow1Lstart"
+       inkscapeIsstock="true">
       <path
          transform="scale(0.8) translate(12.5,0)"
          style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt"
@@ -65,8 +65,8 @@
     </marker>
   </defs>
   <g
-     inkscape:label="Layer 1"
-     inkscape:groupmode="layer"
+     inkscapeLabel="Layer 1"
+     inkscapeGroupmode="layer"
      id="layer1">
     <path
        id="path4909"

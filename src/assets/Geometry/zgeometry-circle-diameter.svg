@@ -7,35 +7,35 @@
    viewBox="0 0 220 220"
    version="1.1"
    id="svg8594"
-   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
-   sodipodi:docname="zgeometry-circle-diameter.svg"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   inkscapeVersion="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodiDocname="zgeometry-circle-diameter.svg"
+   xmlnsInkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlnsSodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <sodipodi:namedview
+   xmlnsSvg="http://www.w3.org/2000/svg">
+  <sodipodiNamedview
      id="namedview8596"
      pagecolor="#ffffff"
      bordercolor="#666666"
      borderopacity="1.0"
-     inkscape:pageshadow="2"
-     inkscape:pageopacity="0.0"
-     inkscape:pagecheckerboard="0"
-     inkscape:document-units="mm"
+     inkscapePageshadow="2"
+     inkscapePageopacity="0.0"
+     inkscapePagecheckerboard="0"
+     inkscapeDocument-units="mm"
      showgrid="false"
      width="220mm"
-     inkscape:zoom="0.76095916"
-     inkscape:cx="182.00714"
-     inkscape:cy="425.77843"
-     inkscape:window-width="1440"
-     inkscape:window-height="872"
-     inkscape:window-x="0"
-     inkscape:window-y="28"
-     inkscape:window-maximized="0"
-     inkscape:current-layer="layer1" />
+     inkscapeZoom="0.76095916"
+     inkscapeCx="182.00714"
+     inkscapeCy="425.77843"
+     inkscapeWindow-width="1440"
+     inkscapeWindow-height="872"
+     inkscapeWindow-x="0"
+     inkscapeWindow-y="28"
+     inkscapeWindow-maximized="0"
+     inkscapeWurrent-layer="layer1" />
   <defs
      id="defs8591">
-    <inkscape:path-effect
+    <inkscapePath-effect
        effect="bspline"
        id="path-effect4350"
        is_visible="true"
@@ -46,7 +46,7 @@
        apply_no_weight="true"
        apply_with_weight="true"
        only_selected="false" />
-    <inkscape:path-effect
+    <inkscapePath-effect
        effect="bspline"
        id="path-effect9344"
        is_visible="true"
@@ -57,7 +57,7 @@
        apply_no_weight="true"
        apply_with_weight="true"
        only_selected="false" />
-    <inkscape:path-effect
+    <inkscapePath-effect
        effect="bspline"
        id="path-effect9316"
        is_visible="true"
@@ -68,7 +68,7 @@
        apply_no_weight="true"
        apply_with_weight="true"
        only_selected="false" />
-    <inkscape:path-effect
+    <inkscapePath-effect
        effect="bspline"
        id="path-effect8844"
        is_visible="true"
@@ -79,7 +79,7 @@
        apply_no_weight="true"
        apply_with_weight="true"
        only_selected="false" />
-    <inkscape:path-effect
+    <inkscapePath-effect
        effect="bspline"
        id="path-effect8652"
        is_visible="true"
@@ -92,13 +92,13 @@
        only_selected="false" />
   </defs>
   <g
-     inkscape:label="Layer 1"
-     inkscape:groupmode="layer"
+     inkscapeLabel="Layer 1"
+     inkscapeGroupmode="layer"
      id="layer1">
     <path
        id="path4309"
        style="color:#000000;fill:#9aa7b0;stroke-width:1;stroke-linecap:round;-inkscape-stroke:none;fill-opacity:1"
-       inkscape:transform-center-y="1.0374636"
+       inkscapeTransform-center-y="1.0374636"
        d="m 112.30632,14.625982 c -51.579366,0 -93.552943,41.973575 -93.552943,93.552958 0,15.09831 3.601187,29.37085 9.982336,42.01139 a 29.221893,29.221893 0 0 1 12.351184,-8.77001 c -4.703337,-10.08948 -7.333401,-21.34998 -7.333401,-33.24138 0,-43.472794 35.080051,-78.55284 78.552824,-78.55284 11.58121,0 22.56586,2.490788 32.45125,6.965467 a 29.901954,29.901954 0 0 1 10.00301,-11.76259 C 142.0116,18.307883 127.5806,14.625982 112.30632,14.625982 Z m 83.83726,52.07744 a 29.901954,29.901954 0 0 1 -11.88093,9.862966 c 4.23981,9.667007 6.5965,20.357216 6.5965,31.612552 0,43.47276 -35.08006,78.55438 -78.55283,78.55438 -12.09131,0 -23.531297,-2.71708 -33.749876,-7.5706 a 29.221893,29.221893 0 0 1 -8.860956,12.28762 c 12.787243,6.57127 27.274112,10.2831 42.610832,10.2831 51.57937,0 93.55295,-41.97513 93.55295,-93.5545 0,-14.885658 -3.5019,-28.967984 -9.71569,-41.475518 z" />
     <path
        style="color:#000000;fill:#40b6e0;stroke-linecap:round;-inkscape-stroke:none;fill-opacity:1"

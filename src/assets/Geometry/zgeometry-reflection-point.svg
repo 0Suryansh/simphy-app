@@ -7,37 +7,37 @@
    viewBox="0 0 220 220"
    version="1.1"
    id="svg10464"
-   sodipodi:docname="zgeometry-reflection-point.svg"
-   inkscape:version="1.1.1 (c3084ef, 2021-09-22)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   sodipodiDocname="zgeometry-reflection-point.svg"
+   inkscapeVersion="1.1.1 (c3084ef, 2021-09-22)"
+   xmlnsInkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlnsSodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <sodipodi:namedview
+   xmlnsSvg="http://www.w3.org/2000/svg">
+  <sodipodiNamedview
      id="namedview10466"
      pagecolor="#ffffff"
      bordercolor="#666666"
      borderopacity="1.0"
-     inkscape:pageshadow="2"
-     inkscape:pageopacity="0.0"
-     inkscape:pagecheckerboard="0"
-     inkscape:document-units="mm"
+     inkscapePageshadow="2"
+     inkscapePageopacity="0.0"
+     inkscapePagecheckerboard="0"
+     inkscapeDocument-units="mm"
      showgrid="true"
      width="220mm"
-     inkscape:zoom="0.70489844"
-     inkscape:cx="402.1856"
-     inkscape:cy="461.76865"
-     inkscape:window-width="1440"
-     inkscape:window-height="759"
-     inkscape:window-x="0"
-     inkscape:window-y="25"
-     inkscape:window-maximized="0"
-     inkscape:current-layer="layer1"
+     inkscapeZoom="0.70489844"
+     inkscapeCx="402.1856"
+     inkscapeCy="461.76865"
+     inkscapeWindow-width="1440"
+     inkscapeWindow-height="759"
+     inkscapeWindow-x="0"
+     inkscapeWindow-y="25"
+     inkscapeWindow-maximized="0"
+     inkscapeCurrent-layer="layer1"
      showguides="false">
-    <inkscape:grid
+    <inkscapeGrid
        type="xygrid"
        id="grid7801" />
-  </sodipodi:namedview>
+  </sodipodiNamedview>
   <defs
      id="defs10461">
     <marker
@@ -46,8 +46,8 @@
        refX="0.0"
        refY="0.0"
        orient="auto"
-       inkscape:stockid="Arrow2Send"
-       inkscape:isstock="true">
+       inkscapeStockid="Arrow2Send"
+       inkscapeIsstock="true">
       <path
          transform="scale(0.3) rotate(180) translate(-2.3,0)"
          d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
@@ -60,8 +60,8 @@
        refX="0.0"
        refY="0.0"
        orient="auto"
-       inkscape:stockid="Arrow2Sstart"
-       inkscape:isstock="true">
+       inkscapeStockid="Arrow2Sstart"
+       inkscapeIsstock="true">
       <path
          transform="scale(0.3) translate(-2.3,0)"
          d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
@@ -74,8 +74,8 @@
        refX="0.0"
        refY="0.0"
        orient="auto"
-       inkscape:stockid="Arrow2Send"
-       inkscape:isstock="true">
+       inkscapeStockid="Arrow2Send"
+       inkscapeIsstock="true">
       <path
          transform="scale(0.3) rotate(180) translate(-2.3,0)"
          d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
@@ -88,8 +88,8 @@
        refX="0.0"
        refY="0.0"
        orient="auto"
-       inkscape:stockid="Arrow2Send"
-       inkscape:isstock="true">
+       inkscapeStockid="Arrow2Send"
+       inkscapeIsstock="true">
       <path
          transform="scale(0.3) rotate(180) translate(-2.3,0)"
          d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
@@ -98,8 +98,8 @@
     </marker>
   </defs>
   <g
-     inkscape:label="Layer 1"
-     inkscape:groupmode="layer"
+     inkscapeLabel="Layer 1"
+     inkscapeGroupmode="layer"
      id="layer1">
     <ellipse
        style="fill:#40b6e0;fill-opacity:0.8;stroke-width:10.6477;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none"
@@ -122,7 +122,7 @@
        style="color:#000000;fill:#f26522;fill-opacity:0.8;stroke-linejoin:bevel;stroke-dasharray:12, 12;-inkscape-stroke:none"
        d="m 64.445312,61.253906 -8.240234,8.72461 8.724609,8.240234 8.238282,-8.724609 z m 15.330599,14.363802 -8.238281,8.722656 8.722656,8.240235 8.240234,-8.72461 z m 15.861719,14.361849 -8.240235,9.253773 8.195443,7.17994 8.240232,-8.724607 z m 25.91393,25.474353 -8.23828,8.72461 7.66433,7.17995 8.24023,-8.72266 z m 14.27422,13.30351 -8.24023,8.72461 8.72461,8.24024 8.24023,-8.72461 z"
        id="path8064"
-       sodipodi:nodetypes="ccccccccccccccccccccccccc" />
+       sodipodiNodetypes="ccccccccccccccccccccccccc" />
     <path
        id="path8198"
        style="color:#000000;fill:#f26522;fill-opacity:0.8;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;-inkscape-stroke:none"

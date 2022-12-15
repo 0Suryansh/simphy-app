@@ -7,32 +7,32 @@
    viewBox="0 0 220 220"
    version="1.1"
    id="svg3797"
-   inkscape:version="1.1.1 (c3084ef, 2021-09-22)"
-   sodipodi:docname="zgeometry-perpendicular-lines.svg"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   inkscapeVersion="1.1.1 (c3084ef, 2021-09-22)"
+   sodipodiDocname="zgeometry-perpendicular-lines.svg"
+   xmlnsInkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlnsSodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <sodipodi:namedview
+   xmlnsSvg="http://www.w3.org/2000/svg">
+  <sodipodiNamedview
      id="namedview3799"
      pagecolor="#ffffff"
      bordercolor="#666666"
      borderopacity="1.0"
-     inkscape:pageshadow="2"
-     inkscape:pageopacity="0.0"
-     inkscape:pagecheckerboard="0"
-     inkscape:document-units="mm"
+     inkscapePageshadow="2"
+     inkscapePageopacity="0.0"
+     inkscapePagecheckerboard="0"
+     inkscapeDocument-units="mm"
      showgrid="false"
      width="2mm"
-     inkscape:zoom="0.76046368"
-     inkscape:cx="514.81749"
-     inkscape:cy="492.4627"
-     inkscape:window-width="1440"
-     inkscape:window-height="759"
-     inkscape:window-x="0"
-     inkscape:window-y="25"
-     inkscape:window-maximized="0"
-     inkscape:current-layer="layer1" />
+     inkscapeZoom="0.76046368"
+     inkscapeCx="514.81749"
+     inkscapeCy="492.4627"
+     inkscapeWindow-width="1440"
+     inkscapeWindow-height="759"
+     inkscapeWindow-x="0"
+     inkscapeWindow-y="25"
+     inkscapeWindow-maximized="0"
+     inkscapeCurrent-layer="layer1" />
   <defs
      id="defs3794">
     <marker
@@ -41,8 +41,8 @@
        refX="0.0"
        refY="0.0"
        orient="auto"
-       inkscape:stockid="TriangleOutS"
-       inkscape:isstock="true">
+       inkscapeStockid="TriangleOutS"
+       inkscapeIsstock="true">
       <path
          transform="scale(0.2)"
          style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt"
@@ -55,8 +55,8 @@
        refX="0.0"
        refY="0.0"
        orient="auto"
-       inkscape:stockid="TriangleOutS"
-       inkscape:isstock="true">
+       inkscapeStockid="TriangleOutS"
+       inkscapeIsstock="true">
       <path
          transform="scale(0.2)"
          style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt"
@@ -69,8 +69,8 @@
        refX="0.0"
        refY="0.0"
        orient="auto"
-       inkscape:stockid="EmptyTriangleOutS"
-       inkscape:isstock="true">
+       inkscapeStockid="EmptyTriangleOutS"
+       inkscapeIsstock="true">
       <path
          transform="scale(0.2) translate(-3.0,0)"
          style="fill-rule:evenodd;fill:context-fill;stroke:context-stroke;stroke-width:1.0pt"
@@ -83,8 +83,8 @@
        refX="0.0"
        refY="0.0"
        orient="auto"
-       inkscape:stockid="TriangleInS"
-       inkscape:isstock="true">
+       inkscapeStockid="TriangleInS"
+       inkscapeIsstock="true">
       <path
          transform="scale(-0.2)"
          style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt"
@@ -97,8 +97,8 @@
        refX="0.0"
        refY="0.0"
        orient="auto"
-       inkscape:stockid="Arrow2Send"
-       inkscape:isstock="true">
+       inkscapeStockid="Arrow2Send"
+       inkscapeIsstock="true">
       <path
          transform="scale(0.3) rotate(180) translate(-2.3,0)"
          d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
@@ -111,8 +111,8 @@
        refX="0.0"
        refY="0.0"
        orient="auto"
-       inkscape:stockid="Arrow2Sstart"
-       inkscape:isstock="true">
+       inkscapeStockid="Arrow2Sstart"
+       inkscapeIsstock="true">
       <path
          transform="scale(0.3) translate(-2.3,0)"
          d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
@@ -121,8 +121,8 @@
     </marker>
   </defs>
   <g
-     inkscape:label="Layer 1"
-     inkscape:groupmode="layer"
+     inkscapeLabel="Layer 1"
+     inkscapeGroupmode="layer"
      id="layer1">
     <path
        style="color:#000000;fill:#40b6e0;stroke-linecap:round;-inkscape-stroke:none;fill-opacity:0.80000001"
