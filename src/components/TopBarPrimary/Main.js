@@ -1,7 +1,7 @@
 import React from "react";
 import Icons from "./Icons";
 import "./Main.css";
-import { CONSTANTS } from "./data";
+import { CONSTANTS } from "./constants";
 
 function TopBarPrimary() {
   return (

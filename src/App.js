@@ -3,7 +3,7 @@ import TopBarPrimary from './components/TopBarPrimary/Main'
 import SideBar from './components/SidePanel/Main'
 import Canvas from './components/Canvas'
 import BottomButtons from './components/BottomButtons/Main'
-import Footer from './components/Footer/Main'
+// import Footer from './components/Footer/Main'
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
       <SideBar/>
       <Canvas/>
       <BottomButtons/>
-      <Footer/>
+      {/* <Footer/> */}
     </div>
   )
 }

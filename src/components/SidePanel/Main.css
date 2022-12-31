@@ -1,5 +1,5 @@
 .sidebar{
-    height: 93vh;
+    height: 94vh;
     width: 307.2px;
     position: fixed;
     left: 0;
@@ -17,9 +17,8 @@
     background-color: #46494B;
 }
 .sidebar-properties-body{
-    max-height: 64vh;
-    min-height: 40vh;
-    height: 64vh;
+    max-height: 58vh;
+    height: 58vh;
     overflow-y: auto;
 }
 .sidebar-properties-accordion{

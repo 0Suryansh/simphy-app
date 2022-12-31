@@ -9,6 +9,8 @@ import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 import ArrowRightIcon from '@mui/icons-material/ArrowRight';
 import FolderIcon from '@mui/icons-material/Folder';
 import InsertDriveFileIcon from '@mui/icons-material/InsertDriveFile';
+import {useSelector} from 'react-redux'
+
 
 const StyledTreeItemRoot = styled(TreeItem)(({ theme }) => ({
   color: "#cccccc",
@@ -77,6 +79,11 @@ StyledTreeItem.propTypes = {
 };
 
 export default function GmailTreeView() {
+
+  const allShape=useSelector((state)=>state.app.shapeArray)
+  console.log(allShape,"mmml")
+  const a=["j","m"]
+
   return (
     <TreeView
       aria-label="gmail"
@@ -86,7 +93,10 @@ export default function GmailTreeView() {
       defaultEndIcon={<div style={{ width: 24 }} />}
     >
       <StyledTreeItem nodeId="3" labelText="Folder" labelIcon={FolderIcon}>
-        <StyledTreeItem
+        {a?.map((shape)=>(
+          <div>{shape} is shape name</div>
+        ))}
+        {/* <StyledTreeItem
           nodeId="5"
           labelText="File-1"
           labelIcon={InsertDriveFileIcon}
@@ -103,7 +113,7 @@ export default function GmailTreeView() {
           labelText="File-3"
           labelIcon={InsertDriveFileIcon}
           bgColor="#f3e8fd"
-        />
+        /> */}
         <StyledTreeItem
           nodeId="8"
           labelText="File-4"

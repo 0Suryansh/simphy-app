@@ -3,8 +3,15 @@ import {useRef} from 'react';
 import './Icons.css';
 import DropDownIcon from '../../assets/Dropdown-SVG-Icon-0sfe.svg';
 import DropDown from './DropDown'
+import {useSelector} from 'react-redux'
+import {useDispatch} from 'react-redux'
+import {activeTool} from '../../actions/index'
 
 const Icons=({ data }) => {
+
+  let dispatch=useDispatch()
+  const appC =useSelector((state)=>state.app.appWindow)
+  const idx=useSelector((state)=>state.app.activeIcon)
   const [dropDown, setDropDown] = React.useState([false, false, false, false, false, false, false, false, false]);
 
   const [topIcon, setTopIcon] = React.useState([data[0][0].icon,
@@ -33,7 +40,6 @@ const Icons=({ data }) => {
   const refs = data.map(() => useRef(null));
 
   React.useEffect(() => {
-    console.log(refs)
     const handleWindowClick = (event: MouseEvent) => {
       if (
         !refs[0].current.contains(event.target) &&
@@ -74,13 +80,21 @@ const Icons=({ data }) => {
     }
     setDropDown(newDropDown);
   }
+
+  const createGeom = async (clazz) => {
+    const app=await appC
+    if (!clazz) app.endConstruction();
+    app.beginConstruction(clazz);
+    console.log(`create class ${clazz}`);
+  };
   
   return (
     <>
       {data.map((group, index) => (
         <div>
-          <div className="wrapper-icons-dd">
-            <img src={topIcon[index]} alt="icon" className="img-content-dd" title={topToolTip[index]} />
+          <div className="wrapper-icons-dd" style={{backgroundColor: idx===index? "#0C8CE9":null}}>
+            <img src={topIcon[index]} alt="icon" className="img-content-dd" title={topToolTip[index]} onClick={() => {dispatch(activeTool(index))
+              createGeom(data[index][0].clickFn)}}/>
             <div ref={refs[index]}>
               <div className="dropdown-container" onClick={() => toggleDropDown(index)}>
                 <img src={DropDownIcon} alt="dropdown" className="dropdown-icon" />

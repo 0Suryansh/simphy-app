@@ -28,6 +28,7 @@ import MeasurePoint from '../../assets/Geometry/zgeometry-measure-point.svg'
 import EvaluateExpression from '../../assets/Geometry/zgeometry-evaluate-expression.svg'
 import Ruler2Points from '../../assets/Geometry/zgeometry-ruler-2-points.svg'
 import Protractor3Points from '../../assets/Geometry/zgeometry-protractor-3-points.svg'
+
 import WhiteLight from '../../assets/Optics/xoptics-ray.svg'
 import ParallelBeam from '../../assets/Optics/xoptics-beam.svg'
 import PointSource from '../../assets/Optics/xoptics-point-source.svg'
@@ -44,183 +45,224 @@ export const CONSTANTS=[
     [
         {
             icon:PointIcon,
-            desc:"Free Point"
+            desc:"Free Point",
+            clickFn: "point-free"
         },
         {
             icon:ReflectionIcon,
-            desc:"Reflection of Point about Line"
+            desc:"Reflection of Point about Line",
+            clickFn: "point-reflection"
         },
         {
             icon:ProjectionIcon,
-            desc:"Projection Point"
+            desc:"Projection Point",
+            clickFn: "point-proj"
         },
         {
             icon:DividePoint,
-            desc:"Divide Point in K:1 "
+            desc:"Divide Point in K:1 ",
+            clickFn: "point-ratio"
         },
         {
             icon:PointCordinate,
-            desc:"Point from Coordinates"
+            desc:"Point from Coordinates",
+            clickFn: "point-coord"
         },
     ],
     [
         {
             icon:Line2Point,
-            desc:"Line 2 Points"
+            desc:"Line 2 Points",
+            clickFn:"line-2pts"
         },
         {
             icon:Segment2Point,
-            desc:"Segment 2 Points"
+            desc:"Segment 2 Points",
+            clickFn:"line-segments"
         },
         {
             icon:Ray2Point,
-            desc:"Ray 2 Points"
+            desc:"Ray 2 Points",
+            clickFn:"line-ray"
         },
         {
             icon:ParallelLine,
-            desc:"Parellel Lines"
+            desc:"Parellel Lines",
+            clickFn:"line-parallel"
         },
         {
             icon:PerpendicularLines,
-            desc:"Perpendicular Lines"
+            desc:"Perpendicular Lines",
+            clickFn:"line-perpendicular"
         },
     ],
     [
         {
             icon:Vector2Points,
-            desc:"Vector 2 Points"
+            desc:"Vector 2 Points",
+            clickFn:"vector-2pts"
         },{
             icon:ParallelVector,
-            desc:"Parallel Vector"
+            desc:"Parallel Vector",
+            clickFn:"vector-parallel"
         },{
             icon:PerpendicularVector,
-            desc:"Perpendicular Vector"
+            desc:"Perpendicular Vector",
+            clickFn:"vector-perpendicular"
         }
     ],
     [
         {
             icon:Circle2Points,
-            desc:"Circle 2 Points"
+            desc:"Circle 2 Points",
+            clickFn:"circle-2pts"
         },
         { 
             icon:Circle3Points,
-            desc:"Circle 3 Points"
+            desc:"Circle 3 Points",
+            clickFn:"circle-3pts"
         },
         {
             icon:CircleDiameter,
-            desc:"Circle from Diameter"
+            desc:"Circle from Diameter",
+            clickFn:"circle-diameter"
         },
         {
             icon:CircleCenterRadius,
-            desc:"Circle Center Radius"
+            desc:"Circle Center Radius",
+            clickFn:"circle-center-radius"
         },
         {
             icon:OsculatingCircle,
-            desc:"Osculating Circle"
+            desc:"Osculating Circle",
+            clickFn:"osculating-circle"
         },
         {
             icon:Arc3Points,
-            desc:"Arc 3 Points"
+            desc:"Arc 3 Points",
+            clickFn:"arc-3pts"
         },
         {
             icon:ArcCenter2Points,
-            desc:"Arc Center 3 Points"
+            desc:"Arc Center 3 Points",
+            clickFn:"arc-center-2pts"
         }
     
     ],
     [
         {
             icon:InsertShapeInfo,
-            desc:"Insert Shape Info"
+            desc:"Insert Shape Info",
+            clickFn:"measure-info"
         },
-        {
-            icon:Image2Points,
-            desc:"Image from 2 Points"
-        },
-        {
-            icon:Image4Points,
-            desc:"Image from 4 Points"
-        },
+        // {
+        //     icon:Image2Points,
+        //     desc:"Image from 2 Points",
+        //     clickFn:""
+        // },
+        // {
+        //     icon:Image4Points,
+        //     desc:"Image from 4 Points",
+        //     clickFn:""
+        // },
         {
             icon:Text2Point,
-            desc:"Text from 2 Point"
+            desc:"Text from 2 Point",
+            clickFn:"text-2pts"
         },
         {
             icon:MeasureAngle,
-            desc:"Measure Angle"
+            desc:"Measure Angle",
+            clickFn:"measure-angle"
         },
         {
             icon:MeasureLength,
-            desc:"Measure Length"
+            desc:"Measure Length",
+            clickFn:"measure-length"
         },
         {
             icon:MeasurePoint,
-            desc:"Measure Point"
+            desc:"Measure Point",
+            clickFn:"measure-point"
         },
         {
             icon:EvaluateExpression,
-            desc:"Evaluate Expression"
+            desc:"Evaluate Expression",
+            clickFn:"measure-expr"
         },
         {
             icon:Ruler2Points,
-            desc:"Ruler from 2 Points"
+            desc:"Ruler from 2 Points",
+            clickFn:"measure-ruler"
         },
         {
             icon:Protractor3Points,
-            desc:"Protractor from 3 Points"
+            desc:"Protractor from 3 Points",
+            clickFn:"measure-protractor"
         }
     
     ],
     [
         {
             icon:WhiteLight,
-            desc:"Ray/White Light"
+            desc:"Ray/White Light",
+            clickFn:"optics-white-ray"
         },
         {
             icon:ParallelBeam,
-            desc:"Parallel Beam"
+            desc:"Parallel Beam",
+            clickFn:"optics-beam"
         },
         {
             icon:PointSource,
-            desc:"Point Source"
+            desc:"Point Source",
+            clickFn:"optics-src"
         }
     ],
     [
         {
             icon:PlaneMirror,
-            desc:"Plane Mirror"
+            desc:"Plane Mirror",
+            clickFn:"optics-planemirror"
         },
         {
             icon:IdealMirror,
-            desc:"Ideal Concave/Convex Mirror"
+            desc:"Ideal Concave/Convex Mirror",
+            clickFn:"optics-idealmirror"
         },
         {
             icon:IdealLens,
-            desc:"Ideal Concave/Convex Lens"
+            desc:"Ideal Concave/Convex Lens",
+            clickFn:"optics-lens"
         }
     ],
     [
         {
             icon:PlaneSurface,
-            desc:"Plane Surface"
+            desc:"Plane Surface",
+            clickFn:"optics-plane"
         },
         {
             icon:ArcMirror,
-            desc:"Mirror from Arc"
+            desc:"Mirror from Arc",
+            clickFn:"optics-arcmirror"
         },
         {
             icon:ArbitaryRefSurface,
-            desc:"Arbitary Refracting Surface"
+            desc:"Arbitary Refracting Surface",
+            clickFn:"PathNpoints"
         }
     ],
     [
         {
             icon:RayBlocker,
-            desc:"Ray Blocker"
+            desc:"Ray Blocker",
+            clickFn:"optics-blocker"
         },
         {
             icon:Observer,
-            desc:"Observer"
+            desc:"Observer",
+            clickFn:"optics-observer"
         }
     ]
 
