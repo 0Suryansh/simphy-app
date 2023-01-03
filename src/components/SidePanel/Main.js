@@ -4,13 +4,13 @@ import Dynamic from './Properties/Dynamic'
 import General from './Properties/General'
 import Kinetic from './Properties/Kinetic'
 import Collision from './Properties/Collision'
-import GmailTreeView from './FolderTree/Main'
+import TreeView from './TreeView/index'
 
 const SidePanel= () => {
   return (
     <div className="sidebar">
       <div className="sidebar-file-explorer">
-        <GmailTreeView/>
+        <TreeView/>
       </div>
       <div className="sidebar-properties">
         <div>
@@ -24,17 +24,17 @@ const SidePanel= () => {
               <General />
             </details>
             <details className="sidebar-properties-accordion">
-              <summary className="sidebar-properties-accordion-head">Dynamic</summary>
+              <summary className="sidebar-properties-accordion-head">Display</summary>
               <Dynamic />
             </details>
             <details className="sidebar-properties-accordion">
-              <summary className="sidebar-properties-accordion-head">Kinetic</summary>
+              <summary className="sidebar-properties-accordion-head">Style</summary>
               <Kinetic />
             </details>
-            <details className="sidebar-properties-accordion">
+            {/* <details className="sidebar-properties-accordion">
               <summary className="sidebar-properties-accordion-head">Collision</summary>
               <Collision />
-            </details>
+            </details> */}
           </div>
         </div>
       </div>

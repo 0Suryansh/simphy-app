@@ -10,7 +10,6 @@
 }
 .sidebar-file-explorer{
     height: 30vh;
-    width: 20vw;
 }
 .sidebar-properties{
     border-top: 2px solid gray;
@@ -51,7 +50,7 @@
     color: #CCCCCC;
 }
 ::-webkit-scrollbar {
-    width: 10px;
+    width: 5px;
   }
   
   /* Track */

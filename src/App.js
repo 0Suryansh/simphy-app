@@ -1,4 +1,3 @@
-import './App.css'
 import TopBarPrimary from './components/TopBarPrimary/Main'
 import SideBar from './components/SidePanel/Main'
 import Canvas from './components/Canvas'

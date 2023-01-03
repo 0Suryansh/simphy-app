@@ -1,17 +1,9 @@
 import React from "react";
 import "./index.css";
 import {useDispatch} from 'react-redux'
-import {useSelector} from 'react-redux'
-import {loadCanvas, cursorInfo} from '../../actions/index'
-import store from '../../store/index'
-import {MyAppListener} from '../../utils/index'
+import {loadCanvas} from '../../actions/index'
 
 function Canvas() {
-  // const cursorInfo=useSelector((state)=>state.app.cursorInfo)
-
-  
-  // const statusInfo=useSelector((state)=>state.app.statusInfo)
-
 
   const dispatch = useDispatch();
   React.useEffect(() => {

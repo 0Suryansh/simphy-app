@@ -1,0 +1,51 @@
+.treeview-wrapper{
+    max-height: 100%;
+    overflow-y: auto;
+    height: 100%;
+    width: 100%;
+    padding-left: 0;
+}
+.folder{
+    display: flex;
+    align-items: center;
+    /* background-color: #C0C0C0; */
+    color: white;
+    cursor: pointer;
+    /* font-weight: bold; */
+    height: 1.5rem;
+    /* border-bottom: 1px solid gray; */
+}
+.folder:hover{
+    background-color: #46494B;
+}
+.folder-name{
+    margin-left: 0.2rem;
+}
+.hero-icon{
+    height: 1rem;
+}
+.folder-icon{
+    margin-left: 0.5rem;
+}
+.files{
+    background-color: #2F343C;
+    color: white;
+}
+.file{
+    padding-left: 3rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 1rem;
+}
+.file .delete-icon{
+    cursor: pointer;
+    visibility: hidden;
+}
+.file:hover{
+    background-color: #46494B;
+}
+.file:hover .delete-icon{
+    visibility: visible;
+}

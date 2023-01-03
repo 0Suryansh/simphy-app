@@ -29,3 +29,23 @@ export const shapeL=(shape)=>{
         payload: shape
     }
 }
+
+export const selectedShape=(shape)=>{
+    return {
+        type:"SELECTED_SHAPE",
+        payload: shape
+    }
+}
+
+export const deleteShape=(shape)=>{
+    return {
+        type:"DELETE_SHAPE",
+        payload: shape
+    }
+}
+
+export const deSelectedShape=()=>{
+    return {
+        type:"DESELECTED_SHAPE"
+    }
+}

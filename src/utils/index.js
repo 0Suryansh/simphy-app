@@ -1,36 +1,30 @@
-import {cursorInfo, statusInfo, shapeL} from '../actions/index'
-// import {useDispatch} from 'react-redux'
+import {cursorInfo, statusInfo, shapeL, selectedShape,deSelectedShape} from '../actions/index'
 import store from '../store/index' 
 
 export class MyAppListener {
     onShapeAdd(shape) {
-       console.log(shape)
         store.dispatch(shapeL(shape))
    }
 
     onShapeDelete(shape) {
-    //    console.log(shape)
+       console.log(shape)
    }
 
    onShapeSelect(shape){
-    //    console.log(shape)
+    store.dispatch(selectedShape(shape))
    }
 
    onShapeDeSelect(shape){
-    //    console.log(shape)
+    store.dispatch(deSelectedShape())
    }
 
    onCursorUpdate(shape){
-     // const status=document.getElementById("status")
-     // console.log(status)
-          document.getElementById("status").innerHTML=shape.x+","+shape.y
-     //    store.dispatch(cursorInfo(shape))
+          document.getElementById("status").innerHTML="Cursor: ("+shape.x.toFixed(2)+","+shape.y.toFixed(2)+")"
    }
 
    onUpdate(shape){
    }
 
    onStatusUpdate(shape){
-    store.dispatch(statusInfo(shape))
    }
 }
