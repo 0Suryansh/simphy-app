@@ -2,13 +2,24 @@ import React from "react";
 import './style.css'
 import {useSelector} from 'react-redux'
 import isEqual from 'lodash/isEqual';
+import { framework } from "../../Canvas/bundle";
+const colorConvert = require('color-convert');
 
 const Style = () => {
   const allShape = useSelector((state) => (state.app.appWindow.shapesManager?.selectedShape),isEqual);
+  const appC =useSelector((state)=>state.app.appWindow)
+  
 
-  const handleColorChange=(e)=>{
-    console.log(e.target.value)
-  }
+  const setFillColor= async(e)=>{
+    const app3=await appC
+    const rgbColor = colorConvert.hex.rgb(e.target.value);
+		app3.shapesManager.selectedShape.fillColor=new framework.Color(rgbColor[0], rgbColor[1], rgbColor[2]);
+	}
+  const setDrawColor= async(e)=>{
+    const app3=await appC
+    const rgbColor = colorConvert.hex.rgb(e.target.value);
+		app3.shapesManager.selectedShape.drawColor=new framework.Color(rgbColor[0], rgbColor[1], rgbColor[2]);
+	}
 
   return (
     <div className="sidebar-properties-accordion-body">
@@ -25,7 +36,7 @@ const Style = () => {
           <label htmlFor="general-name">Fill Color</label>
         </div>
         <div className="sidebar-properties-accordion-body-child-input">
-          <input type="color" className="color" onChange={handleColorChange} />
+          <input type="color" className="color" onChange={setFillColor} />
         </div>
       </div>
       <div className="sidebar-properties-accordion-body-child">
@@ -33,7 +44,7 @@ const Style = () => {
           <label htmlFor="general-name">Draw Color</label>
         </div>
         <div className="sidebar-properties-accordion-body-child-input">
-          <input type="color" className="color" />
+          <input type="color" className="color" onChange={setDrawColor} />
         </div>
       </div>
       <div className="sidebar-properties-accordion-body-child">
