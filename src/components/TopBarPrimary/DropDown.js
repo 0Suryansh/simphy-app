@@ -18,7 +18,7 @@ const DropDown = ({ data, id, updateIcon }) => {
   };
 
   return (
-    <div className="dropdown" style={{ left: id === 0 ? "1rem" : id + "rem"}}>
+    <div className="dropdown" style={{ left: id === 0 ? "1rem" : id + "rem", top:"6rem"}}>
       {data?.map((url) => (
         <div
           className="dropdown-menuItem"

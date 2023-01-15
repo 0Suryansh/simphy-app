@@ -13,31 +13,27 @@ const appReducer=(state=initialState,action)=>{
             const appL = new framework.App("canvas");
             const sm = appL.shapesManager;
             let s1 = new geom.Circle2D();
-            sm.addShape(s1); 
+            sm.addShape(s1);
             const listener = new MyAppListener();
             appL.setAppEventsListener(listener);
+            console.log(appL,"canvas")
             return {
                 ...state,
                 appWindow:appL
             }
         }
         case "SELECTED_SHAPE": {
-            console.log(state,"once")
             state.appWindow.shapesManager.selectedShape=action.payload
-            console.log(state,"twice")
             return{
                 ...state
             }
         }        
         case "DELETE_SHAPE": {
-            console.log(state,"once")
             if(state.appWindow.shapesManager.selectedShape!==null){
                 state.appWindow.shapesManager.selectedShape=null
             }
-            console.log(action.payload.id,"id")
             const filteredShapes = state.appWindow.shapesManager.shapes.array.filter(obj => obj.id !== action.payload.id);
             state.appWindow.shapesManager.shapes.array=filteredShapes
-            console.log(state,"twice")
             return{
                 ...state
             }
@@ -62,7 +58,6 @@ const appReducer=(state=initialState,action)=>{
             }
         }
         case "STATUS":{
-            console.log(action.payload)
             return{
                 ...state,
                 statusInfo:action.payload
@@ -70,11 +65,48 @@ const appReducer=(state=initialState,action)=>{
         }
         case "SHAPE":{
             const tempArr=state.shapeArray
-            console.log(state.appWindow,"apple")
                 tempArr.push(action.payload)
             return{
                 ...state,
                 shapeArray:tempArr
+            }
+        }
+        case "EDIT_PARAM":{
+            console.log(action.payload)
+            const idx=action.payload.index
+            if(idx==="0"){
+                state.appWindow.shapesManager.selectedShape.params[idx]=action.payload.data
+                state.appWindow.shapesManager.shapes.array[3].params[idx]=action.payload.data
+            }
+            console.log(state.appWindow.shapesManager,"hmmm")
+            return {
+                ...state
+            }
+        }
+        case "IMPORT_FILE":{
+            state.appWindow.shapesManager.shapes.array.length=0
+            state.appWindow.shapesManager.shapes.array.push(action.payload)
+            console.log(state.appWindow.shapesManager.shapes.array,"reducer import")
+            return{
+                ...state
+
+            }
+        }
+        case "EDIT_PROP":{
+            if(action.payload.index===0){
+                state.appWindow.shapesManager.selectedShape.showInfo=action.payload.data
+
+            }else if(action.payload.index===1){
+                state.appWindow.shapesManager.selectedShape.showEqn=action.payload.data
+                
+            }else if(action.payload.index===2){
+                state.appWindow.shapesManager.selectedShape.touchable=action.payload.data
+                
+            }else if(action.payload.index===3){
+                state.appWindow.shapesManager.selectedShape.visible=action.payload.data
+            }
+            return{
+                ...state
             }
         }
 

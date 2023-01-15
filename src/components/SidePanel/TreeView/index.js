@@ -221,7 +221,7 @@ const TreeView = () => {
           <span className="folder-name">Geometry</span>
         </summary>
         <div className="files">
-          {a?.map((shape) => (
+          {a?.map((shape,index) => (
             <div
               className="file"
               onClick={() => {
@@ -235,6 +235,7 @@ const TreeView = () => {
                     ? "#0C8CE9"
                     : null,
               }}
+              key={index}
             >
               <div style={{ display: "flex", alignItems: "center" }}>
                 <img

@@ -6,7 +6,7 @@ import isEqual from 'lodash/isEqual';
 const General = () => {
 
   const allShape = useSelector((state) => (state.app.appWindow.shapesManager?.selectedShape),isEqual);
-
+  console.log(allShape)
   return (
     <div className="sidebar-properties-accordion-body">
       <div className="sidebar-properties-accordion-body-child">
@@ -22,7 +22,7 @@ const General = () => {
           <label htmlFor="general-name">Info</label>
         </div>
         <div className="sidebar-properties-accordion-body-child-input">
-          <input type="text" className="text" value={allShape?allShape.name:""}/>
+          <input type="text" className="text" value={allShape?allShape.name:""} />
         </div>
       </div>
       <div className="sidebar-properties-accordion-body-child">
@@ -33,30 +33,6 @@ const General = () => {
           <input type="text" className="text" value={allShape?.expr?allShape.expr:""}/>
         </div>
       </div>
-      {/* <div className="sidebar-properties-accordion-body-child">
-        <div className="sidebar-properties-accordion-body-child-label">
-          <label htmlFor="general-name">Outline Color</label>
-        </div>
-        <div className="sidebar-properties-accordion-body-child-input">
-          <input type="color" className="color" />
-        </div>
-      </div> */}
-      {/* <div className="sidebar-properties-accordion-body-child">
-        <div className="sidebar-properties-accordion-body-child-label">
-          <label htmlFor="general-name">Fill Color</label>
-        </div>
-        <div className="sidebar-properties-accordion-body-child-input">
-          <input type="color" className="color" />
-        </div>
-      </div> */}
-      {/* <div className="sidebar-properties-accordion-body-child">
-        <div className="sidebar-properties-accordion-body-child-label">
-          <label htmlFor="general-name">Opacity</label>
-        </div>
-        <div className="sidebar-properties-accordion-body-child-input">
-          <input type="text" className="text" />
-        </div>
-      </div> */}
     </div>
   );
 };

@@ -1,0 +1,40 @@
+.wrapper-app-bar{
+    display: flex;
+    align-items: center;
+    background-color: #2F343C;
+    height: 3rem;
+    border-top: 0.5px solid grey;
+    border-bottom: 1px solid grey;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 10rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+.divider{
+    background-color: #46494B;
+    width: 1.5px;
+    height: 50%;
+}
+.option{
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+.option img{
+    height: 1rem;
+}
+.option:hover{
+    background-color: #46494B;
+}
+.option span{
+    margin-left: 0.4rem;
+    margin-right: 0.1rem;
+    color: white;
+}

@@ -10101,14 +10101,14 @@ export var geom;
                 window.addEventListener("keydown", (event) => {
                     if (this.isEnabled() && !this.isDependentBehaviorActive()) {
                         this.onKeyPressed((event.keyCode | 0), event.key);
-                        event.preventDefault();
+                        // event.preventDefault();
                     }
                     return null;
                 }, true);
                 window.addEventListener("keyup", (event) => {
                     if (this.isEnabled() && !this.isDependentBehaviorActive()) {
                         this.onKeyReleased((event.keyCode | 0), event.key);
-                        event.preventDefault();
+                        // event.preventDefault();
                     }
                     return null;
                 }, true);

@@ -1,4 +1,4 @@
-import {cursorInfo, statusInfo, shapeL, selectedShape,deSelectedShape} from '../actions/index'
+import {shapeL, selectedShape,deSelectedShape} from '../actions/index'
 import store from '../store/index' 
 
 export class MyAppListener {

@@ -14,6 +14,8 @@ const Icons=({ data }) => {
   const idx=useSelector((state)=>state.app.activeIcon)
   const [dropDown, setDropDown] = React.useState([false, false, false, false, false, false, false, false, false]);
 
+  
+
   const [topIcon, setTopIcon] = React.useState([data[0][0].icon,
     data[1][0].icon,
     data[2][0].icon,
@@ -91,7 +93,7 @@ const Icons=({ data }) => {
   return (
     <>
       {data.map((group, index) => (
-        <div>
+        <div key = {index}>
           <div className="wrapper-icons-dd" style={{backgroundColor: idx===index? "#0C8CE9":null}}>
             <img src={topIcon[index]} alt="icon" className="img-content-dd" title={topToolTip[index]} onClick={() => {dispatch(activeTool(index))
               createGeom(data[index][0].clickFn)}}/>

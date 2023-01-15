@@ -49,3 +49,23 @@ export const deSelectedShape=()=>{
         type:"DESELECTED_SHAPE"
     }
 }
+
+export const importFile=(data)=>{
+    return {
+        type: "IMPORT_FILE",
+        payload: data
+    }
+}
+
+export const editParam=(data,index)=>{
+    return {
+        type: "EDIT_PARAM",
+        payload: {data,index}
+    }
+}
+export const editProperties=(data,index)=>{
+    return {
+        type:"EDIT_PROP",
+        payload: {data, index}
+    }
+}

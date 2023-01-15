@@ -4,6 +4,7 @@ import "./Main.css";
 import { CONSTANTS } from "./constants";
 
 function TopBarPrimary() {
+  
   return (
     <div className="wrapper-top-bar">
       <div className="left-container">
