@@ -15,6 +15,7 @@ export class MyAppListener {
    }
 
    onShapeDeSelect(shape){
+    console.log(shape)
     store.dispatch(deSelectedShape())
    }
 

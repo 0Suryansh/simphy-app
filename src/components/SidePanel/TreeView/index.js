@@ -185,7 +185,7 @@ const TreeView = () => {
         </div>
       </details>
       {/* Geomtry folder */}
-      <details>
+      <details open>
         <summary
           className="folder"
           onClick={() => {

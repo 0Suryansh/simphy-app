@@ -88,7 +88,7 @@ const Modal = () => {
       </div>
       <div className="preferences-option">
         <label htmlFor="grid-size">Grid Size</label>
-        <input type="number" className="input" onChange={changeGridSize} />
+        <input type="number" className="input" onChange={changeGridSize} defaultValue={appC?.preferences?appC.preferences.gridSize:""} />
       </div>
       <div className="preferences-option">
         <label htmlFor="show-axis">Show Axis</label>

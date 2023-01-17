@@ -5,8 +5,10 @@ import isEqual from 'lodash/isEqual';
 
 const General = () => {
 
-  const allShape = useSelector((state) => (state.app.appWindow.shapesManager?.selectedShape),isEqual);
-  console.log(allShape)
+  const selectedShape = useSelector((state) => (state.app.appWindow.shapesManager?.selectedShape),isEqual);
+
+  if (!selectedShape) return null;
+
   return (
     <div className="sidebar-properties-accordion-body">
       <div className="sidebar-properties-accordion-body-child">
@@ -14,7 +16,7 @@ const General = () => {
           <label htmlFor="general-name">Name</label>
         </div>
         <div className="sidebar-properties-accordion-body-child-input">
-          <input type="text" className="text" value={allShape?allShape.name:""}/>
+          <input type="text" className="text" value={selectedShape?selectedShape.name:""}/>
         </div>
       </div>
       <div className="sidebar-properties-accordion-body-child">
@@ -22,7 +24,7 @@ const General = () => {
           <label htmlFor="general-name">Info</label>
         </div>
         <div className="sidebar-properties-accordion-body-child-input">
-          <input type="text" className="text" value={allShape?allShape.name:""} />
+          <input type="text" className="text" value={selectedShape?selectedShape.name:""} />
         </div>
       </div>
       <div className="sidebar-properties-accordion-body-child">
@@ -30,7 +32,7 @@ const General = () => {
           <label htmlFor="general-name">Expression</label>
         </div>
         <div className="sidebar-properties-accordion-body-child-input">
-          <input type="text" className="text" value={allShape?.expr?allShape.expr:""}/>
+          <input type="text" className="text" value={selectedShape?.expr?selectedShape.expr:""}/>
         </div>
       </div>
     </div>

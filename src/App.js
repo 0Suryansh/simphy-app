@@ -16,7 +16,7 @@ function App() {
       <SideBar/>
       <Canvas/>
       <BottomButtons/>
-      <Modal/>
+      {/* <Modal/> */}
       {/* <Footer/> */}
     </div>
   )
