@@ -4,9 +4,11 @@ import FolerPlus from "../../assets/Folder-plus.svg";
 import DropDownIcon from "../../assets/chev-down.svg";
 import {DropDown, FileHeader} from './DropDown'
 import {fileChangeHandler} from '../../utils/appBarFunctions'
+import Modal from '../misc/Modal'
 
 export const AppBar = () => {
-    const [dropDown,setDropDown]=React.useState([false,false,false,false,false])
+    const [dropDown,setDropDown]=React.useState([false,false,false,false])
+    const [modalIsOpen,setModalIsOpen]=React.useState(false)
 
     const options = React.useMemo(()=>[
         [{
@@ -87,9 +89,7 @@ export const AppBar = () => {
     const fileRef = React.useRef(null)
     const editRef= React.useRef(null)
     const viewRef= React.useRef(null)
-    const prefRef= React.useRef(null)
     const helpRef= React.useRef(null)
-
 
   React.useEffect(() => {
     const handleWindowClick = (event) => {
@@ -97,10 +97,9 @@ export const AppBar = () => {
         !fileRef.current.contains(event.target) &&
         !editRef.current.contains(event.target) &&
         !viewRef.current.contains(event.target) &&
-        !prefRef.current.contains(event.target) &&
         !helpRef.current.contains(event.target)
       ) {
-        setDropDown([false, false, false, false, false]);
+        setDropDown([false, false, false, false]);
         }
     };
 
@@ -111,6 +110,12 @@ export const AppBar = () => {
 
   const importJsonHandler = () => {
     fileInputRef.current?.click();
+  }
+  const modalCallBackFn=(state)=>{
+    setModalIsOpen(state)
+  }
+  const openModal=()=>{
+    setModalIsOpen(!modalIsOpen)
   }
 
     return (
@@ -123,7 +128,7 @@ export const AppBar = () => {
 
       {/* file */}
       <div className="option" style={{ marginLeft: "1rem", backgroundColor:dropDown[0]?"#46494B":null }} ref={fileRef} onClick={()=>{
-        setDropDown([!dropDown[0],false,false,false,false]);
+        setDropDown([!dropDown[0],false,false,false]);
       }}>
         <img src={FolerPlus} alt="file" />
         <span>File</span>
@@ -134,7 +139,7 @@ export const AppBar = () => {
 
       {/* edit */}
       <div className="option" ref={editRef} style={{backgroundColor:dropDown[1]?"#46494B":null }} onClick={()=>{
-        setDropDown([false,!dropDown[1],false,false,false]);
+        setDropDown([false,!dropDown[1],false,false]);
       }}>
         <img src={FolerPlus} alt="file" />
         <span>Edit</span>
@@ -143,36 +148,37 @@ export const AppBar = () => {
 
       {/* view */}
       <div className="option" ref={viewRef} style={{backgroundColor:dropDown[2]?"#46494B":null }} onClick={()=>{
-        setDropDown([false,false,!dropDown[2],false,false]);
+        setDropDown([false,false,!dropDown[2],false]);
       }}>
         <img src={FolerPlus} alt="file" />
         <span>View</span>
         <img src={DropDownIcon} alt="file" />
       </div>
 
-      {/* prefRef */}
-      <div className="option" ref={prefRef} style={{backgroundColor:dropDown[3]?"#46494B":null }} onClick={()=>{
-        setDropDown([false,false,false,!dropDown[3],false]);
-      }}>
-        <img src={FolerPlus} alt="file" />
-        <span>Preferences</span>
-        <img src={DropDownIcon} alt="file" />
-      </div>
-
       {/* help */}
-      <div className="option" ref={helpRef} style={{backgroundColor:dropDown[4]?"#46494B":null }} onClick={()=>{
-        setDropDown([false,false,false,false,!dropDown[4]]);
+      <div className="option" ref={helpRef} style={{backgroundColor:dropDown[3]?"#46494B":null }} onClick={()=>{
+        setDropDown([false,false,false,!dropDown[3]]);
       }}>
         <img src={FolerPlus} alt="file" />
         <span>Help</span>
         <img src={DropDownIcon} alt="file" />
       </div>
+
+       {/* prefRef */}
+       <div className="option" style={{backgroundColor:dropDown[4]?"#46494B":null }} onClick={()=>{
+        openModal()
+        setDropDown([false,false,false,false]);
+       }}>
+        <img src={FolerPlus} alt="file" />
+        <span>Preferences</span>
+      </div>
+
     </div>
     {dropDown[0] ? <FileHeader id={13.2} importfn={importJsonHandler}/>:null}
     {dropDown[1] && <DropDown id={18.2}  data={options[1]}/>}
     {dropDown[2] && <DropDown id={23.4}  data={options[2]}/>}
     {dropDown[3] && <DropDown id={29.2}  data={options[3]}/>}
-    {dropDown[4] && <DropDown id={38}  data={options[4]}/>}
+    {modalIsOpen && <Modal isOpen={modalCallBackFn} />}
     </>
   );
 };

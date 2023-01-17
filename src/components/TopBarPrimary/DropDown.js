@@ -6,7 +6,6 @@ import {activeTool} from '../../actions/index'
 
 
 const DropDown = ({ data, id, updateIcon }) => {
-  const idx=useSelector((state)=>state.app.activeIcon)
   let dispatch=useDispatch()
   const appC =useSelector((state)=>state.app.appWindow)
 
